@@ -1,8 +1,4 @@
 <?php
-/* Project: University CMS - Admin Login
-  Author: Shubham Bhatt
-  BCA Lab Assignment - 2026
-*/
 session_start();
 if (isset($_POST['login'])) {
     if ($_POST['user'] == "admin" && $_POST['pass'] == "admin123") {
